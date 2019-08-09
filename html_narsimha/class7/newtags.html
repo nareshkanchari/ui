@@ -1,0 +1,33 @@
+<!-- Create a web page to display login form using dialog box -->
+<!DOCTYPE html>
+<html>
+<head>
+		<script >
+		function f1() {
+			var obj=document.getElementById('d1');
+			// obj.show();
+			obj.showModel();
+		}
+		function f2() {
+			var obj = document.getElementById('d1');
+			obj.close();
+		}
+	</script>
+	<title></title>
+</head>
+<body >
+	<h3>Welcome to HTML5</h3>
+	<hr>
+	<input type="button" onclick="f1();" value="UserLogin">
+	<dialog id='d1'>
+		<form action="Login.jsp" method="post">
+			user Id: <input type="text" name="t1"><br><br>
+			Password:<input type="Password" name="t2">
+			<br><br>
+			<input type="submit" value="Login">
+			<input type="button" onclick="f2()" value="Cancel">
+		</form>
+	</dialog>
+
+</body>
+</html>

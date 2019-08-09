@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Create a web page to demonstrate usage of multi- media tags in HTML5 -->
+<html>
+<head>
+	<title>multimedia</title>
+</head>
+<body>
+	<h3>Multi media Tags in HTML5</h3>
+	<hr>
+	<audio controls="">
+		<source src="file1.mp3" type="audio/mp3">
+	</audio>
+	<hr>
+
+	<video id="v1" controls width="500" loop poster="image.jpeg" onmouseover="f1()" onmouseout="f2()">
+		<source src="new.mp4" type="video/mp4">
+
+	</video>
+
+	<script>
+		function f1() {
+			var obj=document.getElementById('v1');
+			obj.play();
+		}
+
+		function f2() {
+			var obj=document.getElementById('v1')
+			obj.pause();
+		}
+		
+	</script>
+
+</body>
+</html>

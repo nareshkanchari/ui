@@ -1,0 +1,111 @@
+Dilogue:-
+show()
+showmodel()
+close()
+
+
+dialog tag:-
+----------
+
+-> HTML provides special tag called <dialog> to display the content as a separate dialog box.
+
+-> Inside the dialog tag, we can add any html tags that  you want to display in dialog.
+
+Usage
+-------
+<dialog>
+//required content
+</dialog>
+
+Methods
+~~~~~~~~
+1.show()
+2.showmodel()
+3.close()
+
+<!-- Create a web page to display login form using dialog box -->
+<!DOCTYPE html>
+<html>
+<head>
+		<script >
+		function f1() {
+			var obj=document.getElementById('d1');
+			// obj.show();
+			obj.showModel();
+		}
+		function f2() {
+			var obj = document.getElementById('d1');
+			obj.close();
+		}
+	</script>
+	<title></title>
+</head>
+<body >
+	<h3>Welcome to HTML5</h3>
+	<hr>
+	<input type="button" onclick="f1();" value="UserLogin">
+	<dialog id='d1'>
+		<form action="Login.jsp" method="post">
+			user Id: <input type="text" name="t1"><br><br>
+			Password:<input type="Password" name="t2">
+			<br><br>
+			<input type="submit" value="Login">
+			<input type="button" onclick="f2()" value="Cancel">
+		</form>
+	</dialog>
+
+</body>
+</html>
+
+
+
+
+Multi-media tags in HTML5
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-> HTML5 provides separate tags to play video and audio files.
+
+1.<video> tag
+2.<audio> tag
+3.<source> tag
+
+Implementation
+~~~~~~~~~~~~~~
+
+1.<video> tag
+
+<video id="video1">
+	<source src="filename" type="video/mp4">
+</video>
+
+-------------------------------------------------------------------
+
+2.<audio> tag
+~~~~~~~~~~~~~
+
+	<audio id="audio1" controls>
+		<source src="filename" type="audio/mp3">
+	</audio>
+
+------------------------------------------------------------------
+
+
+Attributes
+~~~~~~~~~~
+
+1.controls
+2.poster
+3.muted 
+4.loop
+5.height
+6.width
+
+------------------------------------------------------------------------
+
+Methods: Programming related items
+	
+	-> play()
+	-> pause()
+
+------------------------------------------------------------------------
+

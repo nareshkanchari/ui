@@ -1,0 +1,94 @@
+    GML
+	 |
+	SGML
+	/  \
+HTML    XML
+ |
+ |
+W3C
+ |
+ |
+WORLD WIDE WEB CONSORTIUM(MAIN GROUP)(MAIN AUTHORITY)
+ |
+ |
+WHATWG-->SUBGROUP	
+
+<tag>text</tag>
+
+1. pair tags
+2. Single Tags
+		|
+		|
+	   <img/>
+	   <input/>
+
+<img src="">
+imge-->tag
+src--atribute
+
+Atributes:-
+--------- atributes are 2 types
+
+1.Global Attributes
+  --id,name,style,class,title
+2.Tag Specific
+
+
+
+head section:-
+------------
+1.title-->if you dont mention title message it will show by default file name
+2.style
+3.script
+4.link--->display image in the title bar
+5.meta-->for search enginee purpose for providin data about that websit(purpose)(its just background information)
+ 
+ meta-
+  data about data
+  ex.
+  	resume the data of my self
+   meta data about file(file metadata),(os metadata)
+
+<title></title>
+<link href="image name" rel="shortcut icon" >
+
+
+
+
+body section tags.
+1.Basic Structural Tags
+	i.Headings--->h1,h2,h3,h4,h5,h6
+   ii.paragraphs-->for paragraph and span-->short messages
+  iii.images
+   iv.divisions-->which can group multiple tags
+	v.hyperliks-->navigating from one page to another page
+		 |
+		/|\
+	   / |  \
+Internal |  External
+	/	 |      \
+one 	inline	other/external web site
+page-|     |
+	 |	   same/within
+	 to		  page
+	 |
+other page     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

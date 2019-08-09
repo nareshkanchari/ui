@@ -1,0 +1,69 @@
+#Html class
+
+<spn> tag helps to display small words in the html file
+<hr>(horizontal rule)->the blackline will come if we use
+
+Hyperlinks:-
+
+HyperLinks are 3 types they are:-
+	1.Internal links
+
+	2.External Links
+
+	3.Inline Links
+
+	absolute urls means complete information about url
+
+	ex."https://www.facebook.com"
+
+
+Hyperlinks in HTML
+~~~~~~~~~~~~~~~~~~
+->Hyperlinks in html document are created by using anchor tag(<a></a>).
+
+-> We can navaigate from one page to anothe page using Hyperlinks.
+
+-> We implement navigations with different options:
+	1. Navigate to another page(same site)
+	2. Navigate to external web sites(different website)
+	3. Navigate to sections the same page.
+
+Usage:
+~~~~~
+
+	<a href="URL">text</a>
+Attributes:
+	1.href
+--------------------------------------------------------------------------------
+
+
+Types of URLs
+~~~~~~~~~~~~~
+-> URLs that we are using in hyperlinks are divided two types:
+	1. Relative URLs
+	2. Absolute URLs
+
+
+-> Relative URLs refers same webstie. It does not required website name in URLs.
+
+Eg:  <a href="contact.html">Contatct US</a>
+
+->Absolute URLs refers different web site. It includes complete website web site name with protocol:
+
+Eg:
+
+<a href="https://www.facebook.com">Facebook</a>
+------------------------------------------------
+
+
+Formating Tags
+~~~~~~~~~~~~~~
+
+1. <b> or <strong>(latest)   ----bold text
+
+2. <i> or <em>               -----italic 
+
+3. <u> 						------text underline
+
+
+

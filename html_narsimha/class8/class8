@@ -1,0 +1,63 @@
+diff button tag and input tag
+<button></button>
+<input>
+
+button can allow other tags and it is allow for submition and also it is paired tag
+input tag is single tag and it doesnot allow other tags
+
+html5,css3,js6/7
+
+svg tag(scalable vector graphics):-
+---------------------------------
+it maintains the same clarity at any zoom for images
+<svg></svg>
+it is for grfics related area
+in this svg with tag only we program 
+
+
+Graphics in HTML5 using SVG
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-> SVG stands for Scalable Vector Graphics.
+
+-> SVG is XML based developement i.e every item having its own tags.
+
+-> This style is called "declarative programming".
+
+-> SVG renders as image in browser.
+
+---------------------------------------------------------------------------
+
+Usage
+~~~~~~
+
+<svg width='300' height="300" style="border:5px solid Blue;">
+</svg>
+
+1.Drawing lines
+~~~~~~~~~~~~~~~~
+
+<line x1="0" y1="0" x2="300" y2="300" style="stroke:Red;stroke-width:2"/>
+----------------------------------------------------------------------------------
+
+2.Drawing Rectangle
+~~~~~~~~~~~~~~~~~~~~~
+
+<rect x="40" y="40" width="200" height="100" style="fill:blue;stroke-width:10;stroke:Blue;"/>
+
+Rounded Corners
+~~~~~~~~~~~~~~~
+
+	<rect x="40" y="40" rx="10" ry="10"......../>
+---------------------------------------------------------------------------------------------		
+
+3.Drawing Circles
+~~~~~~~~~~~~~~~~~
+
+<circle cx="200" cy="150" r="50" stroke="green" stroke-width="4" fill="yellow"/>
+---------------------------------------------------------------------------------------
+
+Usage of Polyline
+~~~~~~~~~~~~~~~~~
+<polyline stroke-linejoin="round" style="stroke:Red;stroke-width:10" fill="none" point="x,y x,y x,y ......"/>
+

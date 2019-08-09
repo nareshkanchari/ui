@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!---Create a Registration Page using HTML Forms concept--->
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>Data Entry Forms using HTML</h3>
+	<hr>
+	<form autocomplete="off" action="Registrar.jsp" method="get">
+		<table border="0" align="center">
+			<tr>
+				<td>First Name: </td>
+				<td>
+					<input  placeholder="Enter Last Name" autofocus type="text" name="t1">
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name: </td>
+				<td>
+					<input type="text" name="t2">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender: </td>
+				<td>
+					<input type="radio" name="r1" value="Male"> Male
+					<input type="radio" name="r2" value="Female"> Female
+				</td>
+			</tr>
+			<tr>
+				<td>Hobbies:</td>
+				<td>
+					<input type="checkbox" name="ck1" value="Reading Books"> Reading Books <br>
+					<input type="checkbox" name="ck2" value="Making Friends"> Making Friends <br>
+					<input type="checkbox" name="ck3" value="Playing Games"> Playing Games <br>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>Qualification: </td>
+				<td>
+					<select name="s1">
+						<option>M.Tech</option>
+						<option>B.Tech</option>
+						<option>MCA</option>
+						<option>BCA</option>
+						<option>Others</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Age: </td>
+				<td>
+					<input type="number" min="20" step="2" max="40" name="t3">
+				</td>
+			</tr>
+			<tr>
+				<td>Email: </td>
+				<td>
+					<input type="email" name="t4">
+				</td>
+			</tr>
+			<tr>
+				<td>Join Date: </td>
+				<td>
+					<input type="date" name="t5">
+				</td>
+			</tr>
+			<tr>
+				<td>Pincode: </td>
+				<td>
+					<input type="text" pattern="\d{6}" name="t6">
+				</td>
+			</tr>
+			<tr>
+				<td>Select Resume</td>
+				<td>
+					<input type="file" name="t7">
+				</td>
+			</tr>
+		
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Registrar">
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+
+</body>
+</html>

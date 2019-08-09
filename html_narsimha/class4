@@ -1,0 +1,158 @@
+list format:-
+-----------
+default is number only
+1=numbers
+a=alphabets
+A=capital alphabets
+i=roman numbers
+I=roman numbers
+
+Lists Tags in HTML
+~~~~~~~~~~~~~~~~~
+
+ -> Lists tas are used to prepate collection of items in list format.
+
+ -> Html supports two types of lists:
+ 	1.Ordered List(OL)
+ 	2.Unordered List(UL)
+
+ -> Items inside the lists are prepared by using <LI> tag(List Item).
+
+ -> <LI> tag should use as child tag of either OL or UL.
+
+ Usage:
+
+ 	<ol>
+ 		<li>Item1</li>
+ 		<li>Item2</li>
+ 		....
+
+ 	</ol>
+
+Attribute
+~~~~~~~~~~
+
+-> UL/OL tags supports type Attribute to change the list type options:
+	
+	type= 1 / A / a / i / I (default is number)
+
+	type="disc" / "circle" / "square"(circle is default)
+
+
+Tables in HTML
+~~~~~~~~~~~~~~
+
+-> HTML supports table tag in order to present the data in tabular fromat.
+
+-> In relatime applications tables are used in different situations:
+
+Eg.
+		
+		-> Exam Results
+		-> Cricket Score
+		-> Inbox
+		-> Sales Reports
+		etc...
+
+
+Table Tags
+~~~~~~~~~
+
+1. <table>
+2. <tr> -- Table Row 
+3. <th> -- Table Header (defaultly it is aligned center)
+4. <td> -- Table Data   (defaultly it is aligned left)  
+
+Attributes
+~~~~~~~~~~
+1. Table tag:
+		
+		border,bgcolor,width,align,cellspacing(default cs is 2),cellpadding
+
+2. TH/TD:	colspan,rowspan
+
+Note: These attributes are used to merging multiple cells in to single cell either row wise or column wise
+
+
+merging rows(rows span): merging the cell in row wise
+summery row:
+
+
+
+<!-- Create a web page to demonstrate list and table tags in HTML -->
+<!-- mean stack developer  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>Lists And Table Tags in HTML</h3>
+	<hr><hr/>
+	
+
+	<h3>Ordered List</h3>
+	<ol type="a">
+		<li>HTML5</li>
+		<li>CSS3</li>
+		<li>Bootstrap</li>
+		<li>jQuery</li>
+		<li>Angular</li>		
+	</ol>
+	<hr>
+
+	<h3>Unordered List</h3>
+	<ul type="square">
+		<li>Oracle</li>
+		<li>MySql</li>
+		<li>Sql Server</li>
+		<li>Sqlite</li>
+		<li>MongoDb</li>		
+	</ul>
+	<hr>
+
+	<table bgcolor="LightBlue" border="2" width="400" align="center" cellspacing="0" cellpadding="10">
+		<tr>
+			<th>Student Id</th>
+			<th>Student Name</th>
+			<th>Course Name</th>
+		</tr>
+		<tr>
+			<td>10256</td>
+			<td>Scott</td>
+			<td>HTML5</td>
+		</tr>
+		<tr>
+			<td>10257</td>
+			<td>Smith</td>
+			<td>CSS3</td>
+		</tr>
+		<tr>
+			<td rowspan="2">10258</td><!-- this will merge two sells -->
+			<td rowspan="2">Sandy</td>
+			<td>jQuery</td>
+		</tr>
+		<tr>
+			<!-- Prev.row cells span in this row -->
+			<td>Angular</td>
+		</tr>
+		<tr>
+			<td>10259</td>
+			<td>Sam</td>
+			<td>React JS</td>
+		</tr>
+		<tr>
+			<td align="right" colspan="3">**This table provides July-2018 Student details.</td>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+	

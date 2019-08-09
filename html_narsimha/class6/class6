@@ -1,0 +1,154 @@
+Introduction of HTML5
+~~~~~~~~~~~~~~~~~~~~~
+
+-> HTML5 is the latest version of HTML.
+
+-> HTML5 introduced s many new tags that makes web page designing is more comfortable.
+
+-> Important features of HTML5:
+		
+		1. WebForms 2.0
+		2. Built-in Validations
+		3. Semantic Tags
+		4. Multi media tags
+		5. Graphics Tags
+		6. New Styles (CSS3)
+		7. HTML5 APIs
+
+The above features provides following benefits:
+
+1.Makes web page development is more easy and comfortable.
+2.Reduce the coding burden on the programmer.
+3.Provides rich features for web UI.
+4.Eliminate the dependency on third party plug-ins.
+---------------------------------------------------------------------------
+
+
+										Web Forms 2.0 in HTML5
+										~~~~~~~~~~~~~~~~~~~~~~
+
+-> Web Forms 2.0 is extenstion of html4 forms concept.
+
+-> HTML Forms are used to submit the data to server.
+
+-> Browser will submit the data to server based on the <form> tag only.
+
+-> All html controls should be placed within the form tag only
+
+-> HTML5 introduced new form elements and attributes to make forms development more easy.
+
+-> It provides pre-defined validations. No need to write client side validation code.
+
+New Controls:-
+~~~~~~~~~~~~~
+
+1.number - min,max,step
+2.email
+3.color
+4.range -min,max,step
+5.date
+
+New Attributes:-
+~~~~~~~~~~~~~~
+
+1.min and max
+2.required
+3.pattern
+4.autofocus
+5.autocomplete
+6.formaction
+7.step
+8.placeholder
+9.form
+-------------------------------------------------------------------------------------
+
+Handling multiple submit buttons
+
+<form action="AddEmp.jsp">	
+	<input type="submit" value="Add Emp">
+	<input type="submit" value="Update Emp" formaction="UpdateEmp.jsp">
+	<input type="submit" value="Delete Emp" formaction="DeleteEmp.jsp">
+</form>
+--------------------------------------------------------------------------------------
+
+Include the input controls that we placed outside the form:
+
+<form id="form1" ....>
+	......
+</form>
+
+<input type = "text" name="t1" form="form1">
+---------------------------------------------------------------------------------------
+
+qustion:-
+
+1.	What is the use of datalist tag in html5?
+	<datalist></datalist>
+
+2.
+	<div>
+	<img>
+	<span>
+	...
+	</div>
+3.hyperlinks in center
+
+	Home | Projects | About
+
+figure-grouping the image and caption
+marque-highlight the text
+		{|details-like hyperlink it will view details
+commbine{|
+		{|summery-
+
+
+											Semantic Tags in HTML5
+											~~~~~~~~~~~~~~~~~~~~~~~
+
+-> HTML5 introduced new set of tags to control the structure/content of a web page.
+
+-> All these tags comes under a special group called "Semantic Tags" that are helps to format the content on web page.
+
+
+figure and figcaption:-
+~~~~~~~~~~~~~~~~~~~~~
+
+-> <figure> tag helps to organizing image and its caption that describe about image.
+
+->  Sub-tags for this tag:
+	1.<img>
+	2.<figcaption>
+
+-> <img> tag will helps us to display the image.
+
+-> <figcaption> tag will helps to provide caption.
+-----------------------------------------------------------------------------------------
+
+mark tag:-
+~~~~~~~~
+-> <mark> tag is used to text highlighter with yellow background color.
+
+-> By default it highlight with yellow, if you want, you can change by using style.
+
+Usage: <mark>text</mark>
+--------------------------------------------------------------------------------------------
+
+Details Tag:-
+~~~~~~~~~~~	
+
+-> This tag can be used to create an interactive control that the user can open(show) and close(hide) content.
+
+-> We can add any of the html tags inside <details> tag.
+
+---------------------------------------------------------------------------------------------
+
+summary tag:-
+~~~~~~~~~~~
+
+-> <summary> tag defines a heading for the <details> tag.
+
+-> This heading is clickable so that content will be show/hide.
+
+-> It should be the first tag inside the <details> tag.
+
+--------------------------------------------------------------------------------------------------
